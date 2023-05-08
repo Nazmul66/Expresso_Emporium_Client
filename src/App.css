@@ -1,0 +1,24 @@
+.container{
+    max-width: 300px;
+    margin: auto;
+}
+.main-div{
+    margin-top: 200px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: 1px solid slategrey;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.btn{
+    text-align: center;
+}
+.btn-dash{
+    border: none;
+    padding: 10px 35px;
+    border-radius: 6px;
+}

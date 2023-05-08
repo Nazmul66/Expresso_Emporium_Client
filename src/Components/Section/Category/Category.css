@@ -1,0 +1,40 @@
+.category_Section{
+    padding: 100px 0;
+    background-color: #ECEAE3;
+}
+.main_container{
+    max-width: 1040px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.category-item h3{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 43px;
+    color: #331A15; 
+    margin-bottom: 4px;
+}
+.category-item p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1B1A1A; 
+    margin-bottom: 8px;
+}
+
+
+@media (min-width: 320px) and (max-width: 576px){
+    .category_Section{
+        padding: 50px 20px;
+    }
+    .main_container{
+        grid-template-columns : 1fr;
+        gap: 20px;
+    }
+    .category-item{
+        text-align: center;
+        margin-bottom: 20px;
+     }
+}

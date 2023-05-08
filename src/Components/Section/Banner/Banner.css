@@ -1,0 +1,68 @@
+.banner-section{
+    background: url("../../../assets/Banner.png") no-repeat center top;
+    background-size: cover;
+    padding: 200px 0;
+}
+.main-container{
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
+}
+.content-div{
+    width: 660px;
+    margin-left: auto;
+}
+.content-div h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 68px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.content-div p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 30px
+}
+.content-div .btn-learn{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #242222;
+    background-color: #E3B577;
+    padding: 10px 26px;
+}
+
+
+@media (min-width: 320px) and (max-width: 576px){
+    .banner-section{
+        padding: 100px 20px;
+        height: 100%;
+        background-size: cover;
+    }
+    .main-container{
+        max-width: 1140px;
+        margin: auto;
+        position: static;
+    }
+    .content-div{
+        position: static;
+        width: 100%;
+        transform: translateY(0);
+    }
+    .content-div h1 {
+        text-align: center;
+        font-size: 44px;
+        line-height: 52px;
+        margin-bottom: 30px;
+    }
+    .content-div p {
+        text-align: center;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+}
